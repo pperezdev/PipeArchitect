@@ -16,7 +16,7 @@ class Builder:
     def open_files(self, path, fct):
         objects = []
 
-        folder_path = os.path.abspath(os.path.join('.data', path))
+        folder_path = os.path.abspath(os.path.join('data', path))
         entries = os.listdir(folder_path)
         for entry in entries:
             file_path = os.path.join(folder_path, entry)
