@@ -3,3 +3,4 @@ flask
 asyncio
 aioschedule
 psycopg2
+boto3
